@@ -1,0 +1,29 @@
+/* Styles for the welcome container */
+.welcome-container {
+    -fx-background-color: #fff;
+    -fx-alignment: CENTER; /* Center the contents vertically and horizontally */
+}
+
+/* Styles for buttons with class "styled-button" */
+.styled-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* Styling based on button ID */
+#createAccountButton {
+    -fx-background-color: #ff9900;
+    -fx-text-fill: black;
+    -fx-margin: 0 10px;
+}
+
+/* Styles for input fields */
+.text-field {
+    -fx-prompt-text-fill: #999999;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-max-width: 200px;
+}
